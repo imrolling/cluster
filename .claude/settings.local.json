@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(go version *)",
+      "Read(//Users/v_zhangboxiang/work/private/dev/code/external/github/personal/cluster/services/operators/**)",
+      "Bash(go mod *)",
+      "Bash(go build *)",
+      "Bash(go vet *)",
+      "Bash(go test *)",
+      "Bash(python3 *)",
+      "Bash(echo \"=== BUILD EXIT: $? ===\")",
+      "Bash(grep -rn \"defaultMySQLConfig = \\\\`\\\\|defaultMySQLConfig =$\" internal/controller/ api/ main.go)",
+      "Bash(echo \"BUILD_EXIT=$?\")",
+      "Bash(echo \"EXIT=$?\")",
+      "Bash(gofmt -l .)",
+      "Bash(echo \"gofmt-exit=$?\")"
+    ]
+  }
+}
